@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Jugadores_club SYSTEM "ProjecteT1_P1_POF.dtd">
+<Jugadores_club>
+    <jugador idJugador="J001" refClub="C001" imagenJugador="imagenes/messi.jpg">
+        <nombre>Lionel Messi</nombre>
+        <edad>36</edad>
+        <nacionalidad>Argentina</nacionalidad>
+        <posiciones>
+            <posicion>Delantero</posicion>
+            <posicion>Mediapunta</posicion>
+        </posiciones>
+        <pierna_habil>Izquierda</pierna_habil>
+        <estilo_juego>Regate y precisión</estilo_juego>
+        <palmares>
+            <trofeos>7 Balones de Oro</trofeos>
+            <trofeos>4 Champions League</trofeos>
+        </palmares>
+        <apodo>La Pulga</apodo>
+    </jugador>
+
+    <jugador idJugador="J002" refClub="C002" imagenJugador="imagenes/ronaldo.jpg">
+        <nombre>Cristiano Ronaldo</nombre>
+        <edad>38</edad>
+        <nacionalidad>Portugal</nacionalidad>
+        <posiciones>
+            <posicion>Delantero</posicion>
+            <posicion>Extremo</posicion>
+        </posiciones>
+        <pierna_habil>Derecha</pierna_habil>
+        <estilo_juego>Potencia y remate</estilo_juego>
+        <palmares>
+            <trofeos>5 Balones de Oro</trofeos>
+            <trofeos>5 Champions League</trofeos>
+        </palmares>
+        <apodo>CR7</apodo>
+    </jugador>
+
+    <jugador idJugador="J003" refClub="C003" imagenJugador="imagenes/neymar.jpg">
+        <nombre>Neymar Jr</nombre>
+        <edad>32</edad>
+        <nacionalidad>Brasil</nacionalidad>
+        <posiciones>
+            <posicion>Delantero</posicion>
+            <posicion>Extremo</posicion>
+        </posiciones>
+        <pierna_habil>Derecha</pierna_habil>
+        <estilo_juego>Habilidad y regate</estilo_juego>
+        <palmares>
+            <trofeos>1 Copa Libertadores</trofeos>
+            <trofeos>1 Champions League</trofeos>
+        </palmares>
+        <apodo>El principe que no quiso ser rey</apodo>
+    </jugador>
+
+    <jugador idJugador="J004" refClub="C004" imagenJugador="imagenes/mbappe.jpg">
+        <nombre>Kylian Mbappé</nombre>
+        <edad>25</edad>
+        <nacionalidad>Francia</nacionalidad>
+        <posiciones>
+            <posicion>Delantero</posicion>
+            <posicion>Extremo</posicion>
+        </posiciones>
+        <pierna_habil>Derecha</pierna_habil>
+        <estilo_juego>Velocidad y definición</estilo_juego>
+        <palmares>
+            <trofeos>1 Copa del Mundo</trofeos>
+            <trofeos>5 Ligas Francesas</trofeos>
+        </palmares>
+        <apodo>Donatello</apodo>
+    </jugador>
+
+    <club idClub="C001" imagenClub="imagenes/miami.jpg">
+        <nombre_club>Inter de Maiami</nombre_club>
+        <historia>Fundado en 2018, un club joven en la Major League Soccer (MLS) de Estados Unidos.</historia>
+        <estilo_juego_club>Juego de posesión y ataque rápido por las bandas</estilo_juego_club>
+        <estadio>DRV PNK Stadium</estadio>
+        <colores>
+            <color>Rosa</color>
+            <color>Negro</color>
+        </colores>
+    </club>
+
+    <club idClub="C002" imagenClub="imagenes/alns.jpg">
+        <nombre_club>AL-Nassr</nombre_club>
+        <historia>Fundado en 1955, uno de los clubes más importantes de Arabia Saudita.</historia>
+        <estilo_juego_club>Estilo de juego rápido y agresivo</estilo_juego_club>
+        <estadio>Estadio de la Universidad Rey Saud</estadio>
+        <colores>
+            <color>Amarillo</color>
+            <color>Azul</color>
+        </colores>
+    </club>
+
+    <club idClub="C003" imagenClub="imagenes/ahil.jpg">
+        <nombre_club>Al Hilal</nombre_club>
+        <historia>Fundado en 1957, uno de los clubes más exitosos de Arabia Saudita y Asia.</historia>
+        <estilo_juego_club>Control de balón y ataque ofensivo</estilo_juego_club>
+        <estadio>Estadio Internacional Rey Fahd</estadio>
+        <colores>
+            <color>Azul</color>
+            <color>Blanco</color>
+        </colores>
+    </club>
+
+    <club idClub="C004" imagenClub="imagenes/madrid.jpg">
+        <nombre_club>Madrid</nombre_club>
+        <historia>Fundado en 1902, el club más laureado en la Champions League..</historia>
+        <estilo_juego_club>Verticalidad y contraataque</estilo_juego_club>
+        <estadio>Santiago Bernabéu</estadio>
+        <colores>
+            <color>Blanco</color>
+        </colores>
+    </club>
+</Jugadores_club>
