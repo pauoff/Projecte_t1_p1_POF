@@ -1,0 +1,27 @@
+<!ELEMENT Jugadores_club (jugador+, club+)>
+
+        <!ELEMENT jugador (nombre, edad, nacionalidad, posiciones, pierna_habil, estilo_juego, palmares, apodo?)>
+        <!ATTLIST jugador idJugador ID #REQUIRED
+                refClub IDREF #REQUIRED
+                imagenJugador CDATA #IMPLIED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT edad (#PCDATA)>
+        <!ELEMENT nacionalidad (#PCDATA)>
+        <!ELEMENT posiciones (posicion+)>
+        <!ELEMENT posicion (#PCDATA)>
+        <!ELEMENT pierna_habil (#PCDATA)>
+        <!ELEMENT estilo_juego (#PCDATA)>
+        <!ELEMENT palmares (trofeos*)>
+        <!ELEMENT trofeos (#PCDATA)>
+        <!ELEMENT apodo (#PCDATA)?>
+
+        <!ELEMENT club (nombre_club, historia, estilo_juego_club, estadio, colores, trofeos_club?)>
+        <!ATTLIST club idClub ID #REQUIRED
+                imagenClub CDATA #IMPLIED>
+        <!ELEMENT nombre_club (#PCDATA)>
+        <!ELEMENT historia (#PCDATA)>
+        <!ELEMENT estilo_juego_club (#PCDATA)>
+        <!ELEMENT estadio (#PCDATA)>
+        <!ELEMENT colores (color+)>
+        <!ELEMENT color (#PCDATA)>
+        <!ELEMENT trofeos_club (#PCDATA)?>
